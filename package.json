@@ -1,0 +1,39 @@
+{
+    "name":        "grunt-bower-lock",
+    "homepage":    "https://github.com/evelina-a/grunt-bower-lock",
+    "description": "Grunt Task for Locking Bower Dependencies",
+    "version":     "1.0.0",
+    "license":     "",
+    "author": {
+        "name":    "Eve"
+    },
+    "keywords": [
+        "gruntplugin",
+        "bower", "lock", "dependencies"
+    ],
+    "repository": {
+        "type": "git",
+        "url":  "git://github.com/evelina-a/grunt-bower-lock.git"
+    },
+    "bugs": {
+        "url":  "http://github.com/evelina-a/grunt-bower-lock/issues"
+    },
+    "main": "Gruntfile.js",
+    "devDependencies": {
+        "grunt":                "~0.4.5",
+        "grunt-cli":            "~0.1.13",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-clean":  "~0.6.0",
+        "grunt-eslint":         "~1.1.0"
+    },
+    "dependencies": {
+        "bower":                "~1.3.10",
+        "chalk":                "~0.5.1"
+    },
+    "peerDependencies": {
+        "grunt":                ">=0.4.0"
+    },
+    "engines": {
+        "node":                 ">=0.10.0"
+    }
+}
