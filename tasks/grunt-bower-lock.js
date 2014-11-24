@@ -63,7 +63,7 @@ module.exports = function (grunt) {
             color:          options.color,
             cwd:            options.cwd
         });
-        bower.commands.install([], {
+        bower.commands.lock([], {
             "force-latest": options.forceLatest,
             production:     options.production
         }, {
