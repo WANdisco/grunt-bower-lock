@@ -39,10 +39,6 @@ module.exports = function (grunt) {
             color:        true,               /*  bower --config.color=true        */
             cwd:          process.cwd(),      /*  bower --config.cwd=`pwd`         */
 
-            /*  bower install command options  */
-            forceLatest:  false,              /*  bower install --force-latest     */
-            production:   false,              /*  bower install --production       */
-
             /*  bower configuration options (general)  */
             interactive:  true,               /*  bower --config.interactive=true  */
             directory:    "bower_components"  /*  bower --config.directory=<dir>   */
@@ -64,8 +60,6 @@ module.exports = function (grunt) {
             cwd:            options.cwd
         });
         bower.commands.lock([], {
-            "force-latest": options.forceLatest,
-            production:     options.production
         }, {
             interactive:    options.interactive,
             directory:      options.directory,
